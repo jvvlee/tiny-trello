@@ -18,3 +18,13 @@ If you're familiar with Trello, most of this should be pretty obvious. This is a
 * Clicking "Close" from the detail view closes the detail view (see docs/wires.pdf)
 * Clicking "Delete" from the detail view asks for confirmation and, if approved, deletes the item.
 * It is *not* required to implement drag/drop for reordering items or lists.
+
+### Options
+
+It is *completely acceptable* to use plain old `Ember.Object`s and a default state consisting of a 1-element Array. Or, you can use Ember Data with ember-cli-mirage to stub out an actual API endpoint. If you're really feeling ambitious, you can implement the actual api in whatever language you'd like -- just make sure to include instructions on how we can run this locally when testing it out.
+
+As for styling, this can look however you'd like. We're looking at how you are able to approach a new problem with a new technology, given a fairly stable base of JavaScript knowledge. That said, you have the freedom to apply any styling that you'd like -- have fun with it!
+
+### Questions
+
+Feel free to reach out to us with any questions you might have. If you feel stuck and want some help, send us a note and we'll share a skeleton of a solution for this that you can use for inspiration.
